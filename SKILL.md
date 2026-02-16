@@ -1,6 +1,6 @@
 ---
 name: setup-sandbox
-description: Create org and artist folder structure using the Recoup CLI. Use when setting up a new sandbox, initializing a workspace, or scaffolding folders for organizations and artists.
+description: Set up the initial file system for a new sandbox. Fetches the account's organizations and artists via the Recoup CLI and scaffolds an opinionated folder structure. Use when a sandbox has just been created and has no existing file system. Before running, check if the sandbox already has an orgs/ directory — if it does, this skill is not needed.
 ---
 
 # Setup Sandbox
