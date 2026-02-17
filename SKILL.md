@@ -17,7 +17,7 @@ Create the folder structure for the connected account's organizations and artist
 2. Run `recoup orgs list --json [--account $RECOUP_ACCOUNT_ID]` to get all organizations
 3. For each organization, run `recoup artists list --org {organization_id} --json [--account $RECOUP_ACCOUNT_ID]` to get its artists
 4. Create the folder structure and a `RECOUP.md` marker in each artist folder:
-   - `mkdir -p orgs/{organization_name}/artists/{artist_slug}` for each org/artist pair
+   - `mkdir -p orgs/{org}/artists/{artist-slug}` for each org/artist pair
    - Write a `RECOUP.md` in each artist folder using the template below
 5. Commit and push:
    - `git add -A && git commit -m "setup: create org and artist folders" && git push origin main`
