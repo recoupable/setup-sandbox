@@ -52,13 +52,11 @@ Run the `setup-artist` skill to scaffold it — that will create the full direct
 
 ## Next Steps
 
-### Install the `setup-artist` skill
+After the sandbox is set up, run the `setup-artist` skill for each artist. If the skill is not installed, install it first:
 
 ```bash
 npx skills add recoupable/setup-artist
 ```
-
-### Run it for each artist
 
 Find which artists still need setup:
 
