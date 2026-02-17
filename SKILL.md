@@ -52,7 +52,15 @@ Run the `setup-artist` skill to scaffold it — that will create the full direct
 
 ## Next Steps
 
-After the sandbox is set up, run the `setup-artist` skill for each artist. You can find which artists still need setup:
+### Install the `setup-artist` skill
+
+```bash
+npx skills add recoupable/setup-artist
+```
+
+### Run it for each artist
+
+Find which artists still need setup:
 
 ```bash
 grep -rl "status: not-setup" orgs/*/artists/*/RECOUP.md
